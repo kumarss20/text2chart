@@ -1,0 +1,45 @@
+{
+  "name": "material-ui-nextjs-pages-router-ts",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "^11.11.3",
+    "@emotion/server": "latest",
+    "@emotion/styled": "^11.11.0",
+    "@langchain/community": "^0.0.26",
+    "@langchain/openai": "^0.0.14",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/material": "^5.15.9",
+    "@mui/material-nextjs": "latest",
+    "@mui/x-charts": "^6.19.4",
+    "azure-openai": "^0.9.4",
+    "langchain": "^0.1.13",
+    "markdown-to-jsx": "^7.4.1",
+    "mui-markdown": "^1.1.13",
+    "neo4j-driver": "^5.17.0",
+    "next": "latest",
+    "openai-streams": "^6.2.0",
+    "prism-react-renderer": "^2.3.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-google-charts": "^4.0.1",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-syntax-highlighter": "^15.5.11",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
